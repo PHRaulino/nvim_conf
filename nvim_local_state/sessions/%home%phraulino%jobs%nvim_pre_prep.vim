@@ -13,11 +13,11 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +7 ~/jobs/teste_vim/teste.go
+badd +7 ../teste_vim/teste.go
 argglobal
 %argdel
-$argadd ~/jobs/teste_vim/teste.go
-edit ~/jobs/teste_vim/teste.go
+$argadd ../teste_vim/teste.go
+edit ../teste_vim/teste.go
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
