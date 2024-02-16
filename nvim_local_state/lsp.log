@@ -1,0 +1,2 @@
+[START][2024-02-16 00:42:03] LSP logging initiated
+[ERROR][2024-02-16 00:42:03] ...lsp/handlers.lua:571	"2024/02/16 00:42:03 no signature help: cannot get type for Fun *ast.SelectorExpr (&{fmt PrintLn})\n\tposition=5:13\n"
